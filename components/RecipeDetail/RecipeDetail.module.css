@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  padding: 0 40px;
+  max-width: 800px;
+  min-width: 375px;
+}
+.imageWrapper {
+  min-width: 300px;
+  max-width: 480px;
+  max-height: 360px;
+  position: relative;
+}
+
+.title {
+  margin-bottom: -50px;
+  z-index: 1;
+  background-color: #0094d7;
+  min-width: 300px;
+  max-width: 480px;
+  max-height: 360px;
+}

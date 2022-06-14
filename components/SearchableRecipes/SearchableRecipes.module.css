@@ -1,0 +1,97 @@
+.recipeCardWrapper {
+  background-color: #0094d7;
+  border-radius: 5px;
+  margin: 10px 0;
+  width: 100%;
+}
+
+.recipeCard {
+  display: flex;
+  flex-direction: row;
+}
+
+.recipeImage {
+  border-radius: 5px 0 0 5px;
+  min-width: 240px;
+  /* width: 636px; */
+  min-height: 150px;
+  position: relative;
+  /* overflow: hidden; */
+}
+
+.image {
+  flex-shrink: 0;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 40px 0;
+  /* width: 100%; */
+}
+
+.recipeName {
+  font-weight: 700;
+  margin: 0;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.searchWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 0 20px; */
+}
+
+.searchBar {
+  border: none;
+  padding: 10px;
+  width: 100%;
+  /* width: 500px; */
+  /* width: 80%; */
+  margin: 0;
+}
+
+.searchBar input {
+  border: none;
+  border-bottom: 1px solid #ededed;
+  /* width: 100%; */
+  padding: 5px 10px;
+  font-size: 1rem;
+  font-weight: 200;
+  -webkit-font-smoothing: antialiased;
+  margin-top: 15px;
+}
+
+.searchBar input:focus {
+  border-bottom: 1px solid black;
+  color: black;
+  outline: 0;
+}
+
+.searchButton {
+  /* width: 100%; */
+  width: 50px;
+  height: 50px;
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+@media only screen and (max-width: 480px) {
+  .recipeCard {
+    /* flex-direction: column; */
+  }
+
+  .recipeImage {
+    /* margin: auto; */
+    min-width: 90px;
+    min-height: 90px;
+  }
+}
